@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52 35">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1.5" x2="52" y2="1.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff5200"/>
+      <stop offset="1" stop-color="#e20"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="26" y1="17.5" y2="17.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="26" y1="33.5" y2="33.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>Asset 6</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <line y1="1.5" x2="52" y2="1.5" style="fill: none;stroke-miterlimit: 10;stroke-width: 3px;stroke: url(#linear-gradient)"/>
+        <line x1="26" y1="17.5" x2="52" y2="17.5" style="fill: none;stroke-miterlimit: 10;stroke-width: 3px;stroke: url(#linear-gradient-2)"/>
+        <line x1="26" y1="33.5" x2="52" y2="33.5" style="fill: none;stroke-miterlimit: 10;stroke-width: 3px;stroke: url(#linear-gradient-3)"/>
+      </g>
+    </g>
+  </g>
+</svg>
