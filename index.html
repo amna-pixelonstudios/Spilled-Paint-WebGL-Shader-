@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico">
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
     <link rel="stylesheet" href="https://use.typekit.net/crf4rue.css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/style.js"></script>
@@ -20,7 +20,7 @@
             <a href="index.html"><img src="SVG/Asset 3.svg"></a>
         </div>
         <div class="harmburger_menu">
-            <div id="nav-icon2">
+            <div class="nav-icon2">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -29,242 +29,243 @@
                 <span></span>
             </div>
         </div>
-        <main>
-            <div class="page page--preview">
-                <canvas id="glscreen"></canvas>
-                <div class="grid-wrap">
-                  <div class="grid grid--layout-1">
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                  </div>
-                  <div class="grid grid--layout-2">
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                  </div>
-                  <div class="grid grid--layout-3">
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                  </div>
-                  <div class="grid grid--layout-4">
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                  </div>
-                  <div class="grid grid--layout-5">
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                    <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
-                  </div>
-                  <button class="gridback"><svg width="27px" height="15px" viewBox="0 0 27 15"><path d="M1.469 6.75l-.719.719 7.938 6.937.718-.719L1.47 6.75zM8.594.531L.75 7.375l.688.688L9.28 1.218 8.594.53zM1.406 6.938v1h24.75v-1H1.406z" fill="#de6565"/></svg></button>
-                </div><!-- /grid-wrap -->
-              </div><!-- /page -->
-          <div class="menu-wrap">
-            <div class="menu-draggable"></div>
-            <nav class="menu">
-              <div class="menu__item">
-                <a class="menu__item-link">Home</a>
-                <a class="menu__item-explore">explore</a>
-              </div>
-              <div class="menu__item">
-                <a class="menu__item-link">About</a>
-                <a class="menu__item-explore">explore</a>
-              </div>
-              <div class="menu__item">
-                <a class="menu__item-link">Services</a>
-                <a class="menu__item-explore">explore</a>
-              </div>
-              <div class="menu__item">
-                <a class="menu__item-link">Contact</a>
-                <a class="menu__item-explore">explore</a>
-              </div>
-              <div class="menu__item">
-                <a class="menu__item-link">Careers</a>
-                <a class="menu__item-explore">explore</a>
-              </div> 
-            </nav><!--menu-->
-          </div><!--/menu-wrap-->
-        </main>
-    </div> <!--/navbar-->
-		<div class="cursor">
-			<div class="cursor__inner cursor__inner--circle">
-				<div class="cursor__side cursor__side--left"></div>
-				<div class="cursor__side cursor__side--right"></div>
-			</div>
-		</div>
-    
-  <script id="2d-fragment-shader" type="x-shader/x-fragment"> 
-    #ifdef GL_ES
-    precision highp float;
-    #endif
-      
-    #define PI 3.14159265359;
-      
-      uniform vec2 u_resolution;
-      uniform vec2 u_mouse;
-      uniform float u_time;
-      uniform float u_xpos;
-      uniform float u_ypos;
-      
-      vec3 mod289(vec3 x) {
-        return x - floor(x * (1.0 / 289.0)) * 289.0;
-      }
-      
-      vec4 mod289(vec4 x) {
-        return x - floor(x * (1.0 / 289.0)) * 289.0;
-      }
-      
-      vec4 permute(vec4 x) {
-        return mod289(((x*34.0)+1.0)*x);
-      }
-      
-      vec4 taylorInvSqrt(vec4 r)
-      {
-        return 1.79284291400159 - 0.85373472095314 * r;
-      }
-      
-      float snoise(vec3 v)
-        { 
-        const vec2  C = vec2(1.0/6.0, 1.0/3.0) ;
-        const vec4  D = vec4(0.0, 0.5, 1.0, 2.0);
-      
-        vec3 i  = floor(v + dot(v, C.yyy) );
-        vec3 x0 =   v - i + dot(i, C.xxx) ;
-      
-        vec3 g = step(x0.yzx, x0.xyz);
-        vec3 l = 1.0 - g;
-        vec3 i1 = min( g.xyz, l.zxy );
-        vec3 i2 = max( g.xyz, l.zxy );
-      
-        vec3 x1 = x0 - i1 + C.xxx;
-        vec3 x2 = x0 - i2 + C.yyy;
-        vec3 x3 = x0 - D.yyy;
-      
-        i = mod289(i); 
-        vec4 p = permute( permute( permute( 
-          i.z + vec4(0.0, i1.z, i2.z, 1.0 )) + i.y + vec4(0.0, i1.y, i2.y, 1.0 ))  + i.x + vec4(0.0, i1.x, i2.x, 1.0 ));
-      
-        float n_ = 0.142857142857;
-        vec3  ns = n_ * D.wyz - D.xzx;
-      
-        vec4 j = p - 49.0 * floor(p * ns.z * ns.z);
-      
-        vec4 x_ = floor(j * ns.z);
-        vec4 y_ = floor(j - 7.0 * x_ );
-      
-        vec4 x = x_ *ns.x + ns.yyyy;
-        vec4 y = y_ *ns.x + ns.yyyy;
-        vec4 h = 1.0 - abs(x) - abs(y);
-      
-        vec4 b0 = vec4( x.xy, y.xy );
-        vec4 b1 = vec4( x.zw, y.zw );
-      
-        vec4 s0 = floor(b0)*2.0 + 1.0;
-        vec4 s1 = floor(b1)*2.0 + 1.0;
-        vec4 sh = -step(h, vec4(0.0));
-      
-        vec4 a0 = b0.xzyw + s0.xzyw*sh.xxyy ;
-        vec4 a1 = b1.xzyw + s1.xzyw*sh.zzww ;
-      
-        vec3 p0 = vec3(a0.xy,h.x);
-        vec3 p1 = vec3(a0.zw,h.y);
-        vec3 p2 = vec3(a1.xy,h.z);
-        vec3 p3 = vec3(a1.zw,h.w);
-      
-        vec4 norm = taylorInvSqrt(vec4(dot(p0,p0), dot(p1,p1), dot(p2, p2), dot(p3,p3)));
-        p0 *= norm.x;
-        p1 *= norm.y;
-        p2 *= norm.z;
-        p3 *= norm.w;
-      
-        vec4 m = max(0.6 - vec4(dot(x0,x0), dot(x1,x1), dot(x2,x2), dot(x3,x3)), 0.0);
-        m = m * m;
-        return 42.0 * dot( m*m, vec4( dot(p0,x0), dot(p1,x1), dot(p2,x2), dot(p3,x3) ) );
+     </div> <!-- /navbar -->
+     <main>
+          <div class="page page--preview">
+              <canvas id="glscreen"></canvas>
+              <div class="grid-wrap">
+                <div class="grid grid--layout-1">
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                </div>
+                <div class="grid grid--layout-2">
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                </div>
+                <div class="grid grid--layout-3">
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                </div>
+                <div class="grid grid--layout-4">
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                </div>
+                <div class="grid grid--layout-5">
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                  <div class="grid__item-wrap"><div class="grid__item" style="background: transparent"></div></div>
+                </div>
+                <button class="gridback"><svg width="27px" height="15px" viewBox="0 0 27 15"><path d="M1.469 6.75l-.719.719 7.938 6.937.718-.719L1.47 6.75zM8.594.531L.75 7.375l.688.688L9.28 1.218 8.594.53zM1.406 6.938v1h24.75v-1H1.406z" fill="#de6565"/></svg></button>
+              </div><!-- /grid-wrap -->
+            </div><!-- /page -->
+        <div class="menu-wrap">
+          <div class="menu-draggable"></div>
+          <nav class="menu">
+            <div class="menu__item">
+              <a class="menu__item-link">Home</a>
+              <a class="menu__item-explore" href="index.html">explore</a>
+            </div>
+            <div class="menu__item">
+              <a class="menu__item-link">About</a>
+              <a class="menu__item-explore" href="about.html">explore</a>
+            </div>
+            <div class="menu__item">
+              <a class="menu__item-link">Services</a>
+              <a class="menu__item-explore" href="services.html">explore</a>
+            </div>
+            <div class="menu__item">
+              <a class="menu__item-link">Contact</a>
+              <a class="menu__item-explore" href="contact.html">explore</a>
+            </div>
+            <div class="menu__item">
+              <a class="menu__item-link">Careers</a>
+              <a class="menu__item-explore" href="careers.html">explore</a>
+            </div> 
+          </nav><!--menu-->
+        </div><!--/menu-wrap-->
+        <div class="cursor">
+          <div class="cursor__inner cursor__inner--circle">
+            <div class="cursor__side cursor__side--left"></div>
+            <div class="cursor__side cursor__side--right"></div>
+          </div>
+        </div>
+      </main>
+
+    <script id="2d-fragment-shader" type="x-shader/x-fragment"> 
+      #ifdef GL_ES
+      precision highp float;
+      #endif
+        
+      #define PI 3.14159265359;
+        
+        uniform vec2 u_resolution;
+        uniform vec2 u_mouse;
+        uniform float u_time;
+        uniform float u_xpos;
+        uniform float u_ypos;
+        
+        vec3 mod289(vec3 x) {
+          return x - floor(x * (1.0 / 289.0)) * 289.0;
         }
-      
-        void main() {
-          vec3 color1 = vec3(238.0/255.0,34.0/255.0,0.0/255.0);
-          vec3 color2 = vec3(245.0/255.0,245.0/255.0,255.0/255.0);
-          vec3 color3 = vec3(235.0/255.0,235.0/255.0,255.0/255.0);
-          vec3 color4 = vec3(225.0/255.0,225.0/255.0,255.0/255.0);
-          vec3 color5 = vec3(215.0/255.0,215.0/255.0,255.0/255.0);
-          vec3 color6 = vec3(205.0/255.0,205.0/255.0,255.0/255.0);
-          vec2 lt = vec2(gl_FragCoord.x + u_xpos, gl_FragCoord.y + u_ypos);
-          vec2 st = lt.xy/u_resolution.xy;
-          st.x *= u_resolution.x/u_resolution.y;
-          vec3 color = vec3(0.0);
-          vec2 pos = vec2(st*0.6);
-          float DF = 0.0;
-          float a = 0.0;
-          vec2 vel = vec2(u_time*.1);
-          st.xy *= 0.4;
-          float r = snoise(vec3(st.x,st.y,u_time * 0.1));
-            
-          if(r > 0.90){
-              color = color5;
-          } else if(r > 0.20){
-              color = color4;
-          } else if(r > -0.20){
-              color = color3;
-          } else if(r > -0.60){
-              color = color2;
-          } else if(r > -2.0){
-              color = color1;
+        
+        vec4 mod289(vec4 x) {
+          return x - floor(x * (1.0 / 289.0)) * 289.0;
+        }
+        
+        vec4 permute(vec4 x) {
+          return mod289(((x*34.0)+1.0)*x);
+        }
+        
+        vec4 taylorInvSqrt(vec4 r)
+        {
+          return 1.79284291400159 - 0.85373472095314 * r;
+        }
+        
+        float snoise(vec3 v)
+          { 
+          const vec2  C = vec2(1.0/6.0, 1.0/3.0) ;
+          const vec4  D = vec4(0.0, 0.5, 1.0, 2.0);
+        
+          vec3 i  = floor(v + dot(v, C.yyy) );
+          vec3 x0 =   v - i + dot(i, C.xxx) ;
+        
+          vec3 g = step(x0.yzx, x0.xyz);
+          vec3 l = 1.0 - g;
+          vec3 i1 = min( g.xyz, l.zxy );
+          vec3 i2 = max( g.xyz, l.zxy );
+        
+          vec3 x1 = x0 - i1 + C.xxx;
+          vec3 x2 = x0 - i2 + C.yyy;
+          vec3 x3 = x0 - D.yyy;
+        
+          i = mod289(i); 
+          vec4 p = permute( permute( permute( 
+            i.z + vec4(0.0, i1.z, i2.z, 1.0 )) + i.y + vec4(0.0, i1.y, i2.y, 1.0 ))  + i.x + vec4(0.0, i1.x, i2.x, 1.0 ));
+        
+          float n_ = 0.142857142857;
+          vec3  ns = n_ * D.wyz - D.xzx;
+        
+          vec4 j = p - 49.0 * floor(p * ns.z * ns.z);
+        
+          vec4 x_ = floor(j * ns.z);
+          vec4 y_ = floor(j - 7.0 * x_ );
+        
+          vec4 x = x_ *ns.x + ns.yyyy;
+          vec4 y = y_ *ns.x + ns.yyyy;
+          vec4 h = 1.0 - abs(x) - abs(y);
+        
+          vec4 b0 = vec4( x.xy, y.xy );
+          vec4 b1 = vec4( x.zw, y.zw );
+        
+          vec4 s0 = floor(b0)*2.0 + 1.0;
+          vec4 s1 = floor(b1)*2.0 + 1.0;
+          vec4 sh = -step(h, vec4(0.0));
+        
+          vec4 a0 = b0.xzyw + s0.xzyw*sh.xxyy ;
+          vec4 a1 = b1.xzyw + s1.xzyw*sh.zzww ;
+        
+          vec3 p0 = vec3(a0.xy,h.x);
+          vec3 p1 = vec3(a0.zw,h.y);
+          vec3 p2 = vec3(a1.xy,h.z);
+          vec3 p3 = vec3(a1.zw,h.w);
+        
+          vec4 norm = taylorInvSqrt(vec4(dot(p0,p0), dot(p1,p1), dot(p2, p2), dot(p3,p3)));
+          p0 *= norm.x;
+          p1 *= norm.y;
+          p2 *= norm.z;
+          p3 *= norm.w;
+        
+          vec4 m = max(0.6 - vec4(dot(x0,x0), dot(x1,x1), dot(x2,x2), dot(x3,x3)), 0.0);
+          m = m * m;
+          return 42.0 * dot( m*m, vec4( dot(p0,x0), dot(p1,x1), dot(p2,x2), dot(p3,x3) ) );
           }
-            
-          gl_FragColor = vec4(color,1.0);
-        }
-  </script> 
-  <script id="2d-vertex-shader" type="x-shader/x-vertex"> 
-    attribute vec2 a_position;
-    void main() {
-      gl_Position = vec4(a_position, 0.5, 1);
-    }
-  </script>
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-	<script src="js/charming.min.js"></script>
-	<script src="js/TweenMax.min.js"></script>
-	<script src="js/draggabilly.pkgd.min.js"></script>
-	<script src="js/demo.js"></script>
+        
+          void main() {
+            vec3 color1 = vec3(238.0/255.0,34.0/255.0,0.0/255.0);
+            vec3 color2 = vec3(245.0/255.0,245.0/255.0,255.0/255.0);
+            vec3 color3 = vec3(235.0/255.0,235.0/255.0,255.0/255.0);
+            vec3 color4 = vec3(225.0/255.0,225.0/255.0,255.0/255.0);
+            vec3 color5 = vec3(215.0/255.0,215.0/255.0,255.0/255.0);
+            vec3 color6 = vec3(205.0/255.0,205.0/255.0,255.0/255.0);
+            vec2 lt = vec2(gl_FragCoord.x + u_xpos, gl_FragCoord.y + u_ypos);
+            vec2 st = lt.xy/u_resolution.xy;
+            st.x *= u_resolution.x/u_resolution.y;
+            vec3 color = vec3(0.0);
+            vec2 pos = vec2(st*0.6);
+            float DF = 0.0;
+            float a = 0.0;
+            vec2 vel = vec2(u_time*.1);
+            st.xy *= 0.4;
+            float r = snoise(vec3(st.x,st.y,u_time * 0.1));
+              
+            if(r > 0.90){
+                color = color5;
+            } else if(r > 0.20){
+                color = color4;
+            } else if(r > -0.20){
+                color = color3;
+            } else if(r > -0.60){
+                color = color2;
+            } else if(r > -2.0){
+                color = color1;
+            }
+              
+            gl_FragColor = vec4(color,1.0);
+          }
+    </script>
+    <script id="2d-vertex-shader" type="x-shader/x-vertex"> 
+      attribute vec2 a_position;
+      void main() {
+        gl_Position = vec4(a_position, 0.5, 1);
+      }
+    </script>
+  	<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/draggabilly.pkgd.min.js"></script>
+		<script src="js/demo.js"></script>
+  
   <script>
     $(document).ready(function(){  
-    $('#nav-icon2').click(function(){
+    $('.nav-icon2').click(function(){
       $(this).toggleClass('open');
       });
     });
     $(document).ready(function(){  
-      $("#nav-icon2").click(function(){
-      $("main").toggle("100%");
+      $(".nav-icon2").click(function(){
+      $("main").fadeToggle(2000);
       });
     });
   </script>
